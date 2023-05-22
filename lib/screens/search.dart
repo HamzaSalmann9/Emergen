@@ -71,10 +71,10 @@ class _SearchScreenState extends State<SearchScreen> {
                   ),
                 ),
               ),
+              BottomNav(),
             ],
           ),
         ),
-        bottomNavigationBar: GlassBottomNavBar(),
       ),
     );
   }
